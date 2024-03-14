@@ -19,11 +19,13 @@
 go admin->plugins->add New (botton on top) -> Upload Plugin yt-slider.zip and Activate
 
 
-## Images
+## Frontend View Images
 
 ![image](https://github.com/boffincoders/wordpress-youtube-video-slider-plugin/assets/96565586/4df7aa8d-70f6-4051-b961-f16cf6caf8a6)
 
 ![image](https://github.com/boffincoders/wordpress-youtube-video-slider-plugin/assets/96565586/97617176-5515-458e-87e7-3bc7139403cf)
+
+## Backend View Images
 
 ![image](https://github.com/boffincoders/wordpress-youtube-video-slider-plugin/assets/96565586/1f878445-624e-49e7-8314-85aff642ff4c)
 
