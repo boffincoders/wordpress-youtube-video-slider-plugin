@@ -19,8 +19,7 @@
 go admin->plugins->add New (botton on top) -> Upload Plugin yt-slider.zip and Activate
 
 
-## Example
-
  
+![image](https://github.com/boffincoders/wordpress-youtube-video-slider-plugin/assets/96565586/7b2b0e2b-e358-4350-bcc1-827c941210d1)
 
  
