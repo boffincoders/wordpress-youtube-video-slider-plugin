@@ -785,9 +785,9 @@ function bc_yts_enqueue_youtube_slider_scripts()
 
 add_action("admin_enqueue_scripts", "bc_yts_enqueue_youtube_slider_scripts");
 
-add_shortcode("social_slider", "bcYtSocialSlider");
+add_shortcode("bc_yt_slider", "bcYtVideoSlider");
 
-function bcYtSocialSlider()
+function bcYtVideoSlider()
 {
     ob_start();
     wp_enqueue_style(
