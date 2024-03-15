@@ -6,7 +6,7 @@
     Version: 4.1.0
     Author: Boffincoders
     Author URI: https://boffincoders.com/
-    Text Domain: youtube-video-slider
+    Text Domain: youtube-video-slider-boffin
 */
 
 if (!defined("ABSPATH")) {
@@ -591,7 +591,7 @@ jQuery(document).ready(function($) {
 
 
 // Handle AJAX request to delete multiple videos
-function delete_multiple_videos_ajax_handler() {
+function bc_yt_delete_multiple_videos_ajax_handler() {
     if (isset($_POST['video_ids']) && is_array($_POST['video_ids'])) {
         global $wpdb;
         $table_name = $wpdb->prefix . "bc_yts_youtube_slider";
@@ -604,7 +604,7 @@ function delete_multiple_videos_ajax_handler() {
     }
     wp_die();
 }
-add_action("wp_ajax_delete_multiple_videos", "delete_multiple_videos_ajax_handler");
+add_action("wp_ajax_delete_multiple_videos", "bc_yt_delete_multiple_videos_ajax_handler");
 
 // Handle AJAX request to save video details
 function bc_yts_save_video_ajax_handler()

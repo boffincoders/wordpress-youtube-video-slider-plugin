@@ -1,4 +1,4 @@
-=== Youtube Videos Slider ===
+=== YT Videos Slider ===
 
 Tags: wordpress 
 Requires at least: 4.5
@@ -8,9 +8,9 @@ License: GPLv3 or later
 
 == Description ==
  
-**Youtube Videos Slider** 
+**YT Videos Slider** 
 
-Features of **Youtube Videos Slider** plugin:
+Features of **YT Videos Slider** plugin:
 
  
  
